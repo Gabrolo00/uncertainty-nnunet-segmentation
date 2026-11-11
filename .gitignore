@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data, model weights and outputs (kept on the server, never in the repository)
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+*.log
+logs/
+data/
+outputs/
+
+# Environments and editors
+venv*/
+.venv/
+.vscode/
+.idea/
+.DS_Store

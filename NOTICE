@@ -1,0 +1,6 @@
+uncertainty-nnunet-segmentation
+Copyright 2026 Gabriele Rolo
+
+This project includes a modified file from nnU-Net v2 (2_models/inference/predict_from_raw_data.py),
+Copyright German Cancer Research Center (DKFZ) and Applied Computer Vision Lab, Helmholtz Imaging Platform,
+licensed under the Apache License, Version 2.0 (https://github.com/MIC-DKFZ/nnUNet).
