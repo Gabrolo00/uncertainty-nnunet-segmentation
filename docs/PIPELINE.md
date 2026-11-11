@@ -53,7 +53,7 @@ export NUMPY_MADVISE_HUGEPAGE=0                  # evita il forte rallentamento 
 ```
 I preprocessati non sono più su disco: per riaddestrare si rigenerano con `2_models/training/preprocess_kidney904.sh`. Inferenza e analisi non ne hanno bisogno.
 
-## 3. Il giro, passo per passo
+## 3. Pipeline completa
 
 ### 3.1 Dataset (`1_data/`)
 - **Label binarie** da TotalSegmentator: `build_kidney_labels.py` (rene sinistro OR destro), `build_trachea_labels.py`. Solo criteri di esclusione meccanici: CT presente e leggibile da SimpleITK, struttura presente. Per la trachea si tengono anche 45 CT senza trachea ma con un campo di vista che potrebbe includerla, come casi negativi.
